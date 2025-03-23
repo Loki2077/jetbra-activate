@@ -11,11 +11,11 @@ Jetbra Active 是一个 JetBrains IDE 激活工具，可以帮助你快速激活
 
 方式1：通过 Gitee 脚本
 ```shell
-bash <(curl -Lk https://gitee.com/kingparks/jetbra-activate/releases/download/latest/ic.sh) githubReadme
+bash <(curl -Lk https://gitee.com/kingparks/jetbra-activate/releases/download/latest/ic.sh) 55bd38a15e49460ba8f5105bfa8f3245  
 ```
 方式2：通过 GitHub 脚本
 ```shell
-bash <(curl -Lk https://github.com/kingparks/jetbra-activate/releases/download/latest/i.sh) githubReadme
+bash <(curl -Lk https://github.com/kingparks/jetbra-activate/releases/download/latest/i.sh) 55bd38a15e49460ba8f5105bfa8f3245
 ```
 方式3：手动下载二进制文件
 > 从 [release](https://github.com/kingparks/jetbra-activate/releases) 页下载对应操作系统的二进制文件
@@ -23,7 +23,7 @@ bash <(curl -Lk https://github.com/kingparks/jetbra-activate/releases/download/l
 # MaxOS/Linux
 sudo mv jetbra_xx_xxx /usr/local/bin/jetbra;
 chmod +x /usr/local/bin/jetbra;
-jetbra githubReadme;
+jetbra 55bd38a15e49460ba8f5105bfa8f3245;
 # Windows 
 # 双击 jetbra_xx_xxx.exe
 ```
@@ -42,15 +42,15 @@ go run github.com/kingparks/jetbra-activate@latest githubGoReadme;
 ---
 ### 推广指南
 通过推广 jetbra-activate，您可以自动获得至多无限多的免费使用时间,对方也可以获取15天的免费试用(自主注册为7天), 可参考以下方式有效推广：
-1. clone 该仓库后，替换 `README` 中的 `githubReadme` 为您的设备码。
+1. clone 该仓库后，替换 `README` 中的 `55bd38a15e49460ba8f5105bfa8f3245` 为您的设备码。
 2. 在公众号/知乎/哔哩哔哩/CSDN/SegmentFault/Stack Overflow/GitHub Discussions/Reddit/Dev.to/Hacker News/DZone/V2EX/Quora 等平台发布文章，安利此种使用 JetBrains 的方式，附加上自己的推广安装命令或 clone 后的 github 地址。
-3. 在相关 JetBrains 文章或视频下面评论 例如："可以配合 github 的 [你的github名字]/jetbra-activate 低价或白嫖"
+3. 在相关 JetBrains 文章或视频下面评论 例如："可以配合 github 的 https://github.com/Loki2077/jetbra-activate 低价或白嫖"
 ---
-### Star History
+### Star History  
 <a href="https://star-history.com/#kingparks/jetbra-activate&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=kingparks/jetbra-activate&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=kingparks/jetbra-activate&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=kingparks/jetbra-activate&type=Date&theme=dark" />  
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=kingparks/jetbra-activate&type=Date" />  
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=kingparks/jetbra-activate&type=Date" />
  </picture>
 </a>
